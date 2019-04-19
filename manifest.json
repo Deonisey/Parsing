@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "Parser",
+	"description": "Parser sites",
+	"version": "1.0",
+	"icons": {"128": "icon.png"},
+    
+	"permissions": 
+	[
+		"activeTab",
+		"https://youla.ru/*"
+	],
+	"app": 
+	{
+		"launch": 
+		{
+			"local_path": "main.html"
+		}
+	}
+}
