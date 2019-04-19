@@ -9,6 +9,7 @@
 		alert('Fail');
 	  })
 	}
+	
 	function analysisSite(data){
 	  var res = '';
 	  $(data).find('a').each(function(){
@@ -16,9 +17,10 @@
 	  })
 	  $('#resultbox').html(res);
 	}
+	
 	$(function(){
-	  $('#progress').hide();
 	  $('#starter').click(parserGo);
+	  $('#resultbox').html('');
 	});
 	
 })(jQuery);
